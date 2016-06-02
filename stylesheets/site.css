@@ -426,13 +426,14 @@ html, body {
     text-align: center; }
     /* line 25, site.css.scss */
     #countdown-landing-page #ufo-container .tag-line {
-      margin-top: 20%; }
-      /* line 28, site.css.scss */
+      margin: 0 auto;
+      margin-top: 200px; }
+      /* line 29, site.css.scss */
       #countdown-landing-page #ufo-container .tag-line h1 {
         font-weight: 100;
         color: white;
         font-size: 110px; }
-    /* line 35, site.css.scss */
+    /* line 36, site.css.scss */
     #countdown-landing-page #ufo-container #countdown {
       background: #1B1B1B;
       width: 400px;
@@ -440,7 +441,7 @@ html, body {
       margin: 0 auto;
       border-radius: 7px;
       box-shadow: 2px 2px 2px 1px #7d7264; }
-      /* line 43, site.css.scss */
+      /* line 44, site.css.scss */
       #countdown-landing-page #ufo-container #countdown .countdown-container {
         width: 70px;
         display: inline-block;
@@ -448,7 +449,7 @@ html, body {
         font-size: 18px;
         font-weight: 100;
         color: gray; }
-        /* line 51, site.css.scss */
+        /* line 52, site.css.scss */
         #countdown-landing-page #ufo-container #countdown .countdown-container .countdown-number {
           color: #E48339;
           font-size: 30px;
@@ -465,16 +466,16 @@ html, body {
           background-image: -webkit-linear-gradient(bottom, #131313 0%, #525252 100%);
           background-image: linear-gradient(to top, #131313 0%, #525252 100%);
           margin: 0 auto; }
-          /* line 68, site.css.scss */
+          /* line 69, site.css.scss */
           #countdown-landing-page #ufo-container #countdown .countdown-container .countdown-number span.number-text {
             position: relative;
             right: 2px;
             top: -4px; }
-        /* line 75, site.css.scss */
+        /* line 76, site.css.scss */
         #countdown-landing-page #ufo-container #countdown .countdown-container span {
           margin-top: 5px;
           display: block; }
-      /* line 81, site.css.scss */
+      /* line 82, site.css.scss */
       #countdown-landing-page #ufo-container #countdown .countdown-seperator {
         display: inline-block;
         color: #797979;
