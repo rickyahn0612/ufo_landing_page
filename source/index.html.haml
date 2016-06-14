@@ -1,6 +1,46 @@
 #countdown-landing-page
-  = image_tag('ir_logo.png', class: 'ir_logo')
+  = link_to 'http://ironridge.com' do 
+    = image_tag('ir_logo.png', class: 'ir_logo')
   #ufo-container
     .tag-line
-      %h1 They're coming
-    #countdown
+      %h1 First Contact
+  #info-container
+    .row
+      .col-md-6
+        Intersolar 7.12.16 | Moscone Center SF - CA | Booth #9333
+      .col-md-3.col-md-offset-3
+        = link_to '#ufo-form' do 
+          #form-popup.ufo-button
+            Join the landing party
+
+#notify-form
+  .form-container
+    #ufo-close-button
+      X
+    %h3 Notfy me when the UFOs have landed.
+    %p 
+      Come to Booth #9333 and we'll have a 
+      %br
+      UFO sample and complimentary t-shirt in your size
+    %form 
+      .form-group
+        %label Name
+        %input.form-control
+      .form-group
+        %label Email
+        %input.form-control
+      .form-group
+        %label Tshirt Size
+        %select.form-control
+          %option -- Small --
+          %option -- Medium --
+          %option -- Large --
+          %option -- X Large --
+          %option -- XX Large --
+        %br
+        = link_to '#' do 
+          .ufo-button{style: 'font-weight: bold;'}
+            Submit
+#ufo-overlay
+
+
