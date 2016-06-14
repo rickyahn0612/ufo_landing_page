@@ -29,4 +29,16 @@ $(document).ready(function(){
           <span>Seconds</span> \
         </div>'));
   });
+
+  $('#form-popup').on('click', function(e){
+    $('#notify-form').fadeIn();
+    $('#ufo-overlay').fadeIn();
+  });
+
+  var closeElms = $('#ufo-close-button, #ufo-overlay')
+
+  closeElms.on('click', function(e){
+    $('#notify-form').fadeOut()
+    $('#ufo-overlay').fadeOut();
+  });
 });

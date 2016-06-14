@@ -404,35 +404,36 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/* line 4, site.css.scss */
+/* line 5, site.css.scss */
 html, body {
-  height: 100%; }
-
-/* line 8, site.css.scss */
-#countdown-landing-page {
+  height: 100%;
+  color: white !important;
   font-family: 'Lato', sans-serif;
+  font-weight: 100; }
+
+/* line 12, site.css.scss */
+#countdown-landing-page {
   background-image: url("../images/ufo_sneak_peak.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   min-height: 100%; }
-  /* line 17, site.css.scss */
+  /* line 20, site.css.scss */
   #countdown-landing-page .ir_logo {
     width: 240px;
     padding: 20px; }
-  /* line 22, site.css.scss */
+  /* line 25, site.css.scss */
   #countdown-landing-page #ufo-container {
     text-align: center;
     position: fixed;
-    bottom: 100px;
+    bottom: 270px;
     width: 100%; }
-    /* line 30, site.css.scss */
+    /* line 33, site.css.scss */
     #countdown-landing-page #ufo-container .tag-line h1 {
-      font-weight: 100;
-      color: white;
-      font-size: 110px; }
-    /* line 37, site.css.scss */
+      font-size: 110px;
+      font-weight: 100; }
+    /* line 39, site.css.scss */
     #countdown-landing-page #ufo-container #countdown {
       background: #1B1B1B;
       width: 400px;
@@ -440,7 +441,7 @@ html, body {
       margin: 0 auto;
       border-radius: 7px;
       box-shadow: 2px 2px 2px 1px #7d7264; }
-      /* line 45, site.css.scss */
+      /* line 47, site.css.scss */
       #countdown-landing-page #ufo-container #countdown .countdown-container {
         width: 70px;
         display: inline-block;
@@ -448,7 +449,7 @@ html, body {
         font-size: 18px;
         font-weight: 100;
         color: gray; }
-        /* line 53, site.css.scss */
+        /* line 55, site.css.scss */
         #countdown-landing-page #ufo-container #countdown .countdown-container .countdown-number {
           color: #E48339;
           font-size: 30px;
@@ -465,16 +466,16 @@ html, body {
           background-image: -webkit-linear-gradient(bottom, #131313 0%, #525252 100%);
           background-image: linear-gradient(to top, #131313 0%, #525252 100%);
           margin: 0 auto; }
-          /* line 70, site.css.scss */
+          /* line 72, site.css.scss */
           #countdown-landing-page #ufo-container #countdown .countdown-container .countdown-number span.number-text {
             position: relative;
             right: 2px;
             top: -4px; }
-        /* line 77, site.css.scss */
+        /* line 79, site.css.scss */
         #countdown-landing-page #ufo-container #countdown .countdown-container span {
           margin-top: 5px;
           display: block; }
-      /* line 83, site.css.scss */
+      /* line 85, site.css.scss */
       #countdown-landing-page #ufo-container #countdown .countdown-seperator {
         display: inline-block;
         color: #797979;
@@ -482,3 +483,86 @@ html, body {
         position: relative;
         top: -40px;
         right: 7px; }
+  /* line 96, site.css.scss */
+  #countdown-landing-page #info-container {
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    overflow: none;
+    margin: 0;
+    padding: 0 40px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    /* line 107, site.css.scss */
+    #countdown-landing-page #info-container a {
+      color: white; }
+      /* line 110, site.css.scss */
+      #countdown-landing-page #info-container a:hover, #countdown-landing-page #info-container a:link {
+        text-decoration: none; }
+
+/* line 117, site.css.scss */
+.ufo-button {
+  color: white;
+  text-align: center;
+  background: #1174B9;
+  padding: 5px 20px; }
+  /* line 123, site.css.scss */
+  .ufo-button:hover {
+    background: #0d578a; }
+
+/* line 128, site.css.scss */
+#notify-form {
+  display: none;
+  background: white;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 50%;
+  z-index: 1000; }
+  /* line 139, site.css.scss */
+  #notify-form .form-container {
+    text-align: center;
+    padding: 20px 10px; }
+    /* line 143, site.css.scss */
+    #notify-form .form-container #ufo-close-button {
+      background: #1074BA;
+      font-weight: bold;
+      line-height: 25px;
+      width: 25px;
+      height: 25px;
+      border-radius: 25px;
+      text-align: center;
+      position: absolute;
+      top: -10px;
+      right: -10px; }
+      /* line 155, site.css.scss */
+      #notify-form .form-container #ufo-close-button:hover {
+        cursor: pointer; }
+    /* line 160, site.css.scss */
+    #notify-form .form-container h3 {
+      color: #1074BA; }
+    /* line 164, site.css.scss */
+    #notify-form .form-container p {
+      color: #777;
+      font-weight: 900; }
+    /* line 169, site.css.scss */
+    #notify-form .form-container form {
+      width: 70%;
+      margin: 0 auto;
+      text-align: left;
+      color: #777; }
+
+/* line 178, site.css.scss */
+#ufo-overlay {
+  display: none;
+  background: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.50; }
